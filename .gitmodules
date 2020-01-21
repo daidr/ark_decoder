@@ -1,0 +1,4 @@
+[submodule "Texture_Origin"]
+	path = Texture_Origin
+	url = https://github.com/daidr/ark_originimages.git
+	branch = master

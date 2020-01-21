@@ -20,8 +20,14 @@
 ## 开始使用
 
 1. 克隆仓库 `git clone https://github.com/daidr/ark_decoder.git`
-2. 执行 `yarn install`（推荐） 或 `npm i` （取决于你所使用的包管理器）
-3. 执行 `yarn all`（推荐） 或 `npm run all` （取决于你所使用的包管理器）
+2. 初始化立绘子模块 `git submodule init`
+3. 更新立绘子模块 `git submodule update`
+4. 执行 `yarn install`（推荐） 或 `npm i` （取决于你所使用的包管理器）
+5. 执行 `yarn all`（推荐） 或 `npm run all` （取决于你所使用的包管理器）
+
+## 更新立绘
+
+立绘与代码储存在不同的仓库中，立绘更新后，你可以通过 `git submodule update` 将最新立绘同步到代码仓库中，然后运行 `yarn all` 进行反混淆
 
 ## 分步执行
 
