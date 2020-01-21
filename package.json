@@ -1,0 +1,23 @@
+{
+  "name": "ark-decoder",
+  "version": "1.0.0",
+  "author": "戴兜 <daidr@daidr.me> (https://daidr.me)",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.24.0"
+  },
+  "scripts": {
+    "all": "node main -all",
+    "backup": "node main -backup",
+    "decode": "node main -decode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daidr/puzzle-hotreloader"
+  },
+
+  "bugs": {
+    "url": "https://github.com/daidr/puzzle-hotreloader/issues"
+  },
+  "homepage": "https://daidr.me"
+}
