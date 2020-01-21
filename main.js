@@ -30,7 +30,9 @@ function backupImage() {
         console.log(`创建立绘备份，可能花费较长时间，请稍后...`);
         let bt = new Date().getTime();
         for (let i = 0; i < files.length; i++) {
-            fs.copyFileSync(`./Texture_Origin/${files[i]}`, `./Texture_After/${/(\w*#?[\d\w+]{0,7}(?:\[alpha\])?)\s{0,2}#?\S{0,8}\.png/.exec(files[i])[1]}.png`);
+            if (files[i] != ".git") {
+                fs.copyFileSync(`./Texture_Origin/${files[i]}`, `./Texture_After/${/(\w*#?[\d\w+]{0,7}(?:\[alpha\])?)\s{0,2}#?\S{0,8}\.png/.exec(files[i])[1]}.png`);
+            }
         }
         console.log(`立绘备份创建完成，用时${new Date().getTime() - bt}ms`);
         if (couldDecode) {
