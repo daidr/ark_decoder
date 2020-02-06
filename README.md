@@ -10,7 +10,7 @@
 </div>
 <div align="center">
   <a href="https://github.com/daidr/ark_decoder.git">
-    <img src="https://daidr.me/wp-content/uploads/2020/01/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E4%BA%BA%E7%89%A9%E7%AB%8B%E7%BB%98%E5%8F%8D%E6%B7%B7%E6%B7%86.png" alt="ArkNights Decoder">
+    <img src="https://i.loli.net/2020/02/06/4sDzyMQucxEdkHR.png" alt="ArkNights Decoder">
   </a>
 </div>
 
